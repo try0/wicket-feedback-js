@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org" lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>wicket-feedback-js samples</title>
+</head>
+<body>
+	<h1>wicket-feedback-js samples</h1>
+	<p>Errors are displayed with SweetAlert2, and other messages with Notyf.</p>
+
+	<h2>Ajax</h2>
+	<ul>
+		<li><a wicket:id="info">info</a></li>
+		<li><a wicket:id="success">success</a></li>
+		<li><a wicket:id="warn">warn</a></li>
+		<li><a wicket:id="error">error</a></li>
+		<li><a wicket:id="errors">multiple errors</a></li>
+		<li><a wicket:id="all">info, success and error</a></li>
+		<li><a wicket:id="options">title and options</a></li>
+		<li><a wicket:id="escape">text that needs escaping</a></li>
+	</ul>
+
+	<h2>Form (full page)</h2>
+	<form wicket:id="form">
+		<label>number <input type="text" wicket:id="number"></label>
+		<button type="submit">submit</button>
+	</form>
+</body>
+</html>
