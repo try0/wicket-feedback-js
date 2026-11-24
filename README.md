@@ -10,11 +10,6 @@ You only write the part that converts a message to JavaScript. Collecting, filte
 | 2.0.0-SNAPSHOT | 11.x | 21 |
 | 1.0.0-SNAPSHOT | 10.x | 17 |
 
-Ready-made adapters:
-
-* [wicket-iziToast](https://github.com/try0/wicket-iziToast) (4.1.0 or later)
-* [wicket-toastr](https://github.com/try0/wicket-toastr) (4.1.0 or later)
-
 
 # Usage
 
