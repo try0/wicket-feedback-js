@@ -1,6 +1,6 @@
 package jp.try0.wicket.feedback.js.samples;
 
-import org.eclipse.jetty.ee11.webapp.WebAppContext;
+import org.eclipse.jetty.ee10.webapp.WebAppContext;
 import org.eclipse.jetty.server.Server;
 
 /**
